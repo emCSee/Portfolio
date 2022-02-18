@@ -1,18 +1,14 @@
-nav {
-    border-bottom: 1px solid black;
-}
-
-
 .menu ul {
      list-style-type: none;
      display: flex;
      align-items: center;
      justify-content: space-around;
      margin-top: 75px;
-     margin-left: 10px;
-     margin-right: 10px;
+     margin-bottom: 50px;
+     margin-left: 5px;
+     margin-right: 5px;
 
- }
+}
 
  .introduction { 
         text-align: justify;
@@ -42,7 +38,7 @@ nav {
     align-items: center;
    justify-content: space-around;
    margin-top: 150px;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
     margin-left: 270px;
     margin-right: 270px;
 
