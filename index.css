@@ -1,3 +1,49 @@
-main {
-    font-style: italic;
+nav {
+    border-bottom: 1px solid black;
 }
+
+
+.menu ul {
+     list-style-type: none;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     margin-top: 75px;
+     margin-left: 10px;
+     margin-right: 10px;
+
+ }
+
+ .introduction { 
+        text-align: justify;
+        font-size: small;
+        margin-left: 175px;
+        margin-right: 175px;
+ }
+
+ .tldr {
+    text-align: center;
+    font-size: small;
+    margin-left: 175px;
+    margin-right: 175px;
+ }
+
+ .firstjob {
+    text-align: justify;
+    font-size: small;
+    margin-left: 175px;
+    margin-right: 175px;
+ }
+
+
+ .footer ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+   margin-top: 150px;
+    margin-bottom: 200px;
+    margin-left: 270px;
+    margin-right: 270px;
+
+ }
