@@ -1,13 +1,23 @@
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(Images/HnfhOx.jpg);
+    height: 200px;
+    margin-top: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
 .menu ul {
      list-style-type: none;
      display: flex;
      align-items: center;
      justify-content: space-around;
-     margin-top: 75px;
-     margin-bottom: 50px;
+     margin-top: 5px;
+     margin-bottom: 1px;
      margin-left: 5px;
      margin-right: 5px;
-
 }
 
  .introduction { 
