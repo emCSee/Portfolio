@@ -1,7 +1,9 @@
+/* MAIN BANNER OPTIONS */
+
 .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url(Images/HnfhOx.jpg);
-    height: 200px;
+    height: 100px;
     margin-top: 0px;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,16 +11,81 @@
     position: relative;
   }
 
+/* MAIN BANNER OPTIONS END */
+
+
+/* BODY PAGE OPTIONS */
+
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    background: #3d3c3c;
+  }
+
+/* BODY PAGE OPTIONS END */
+
+/* HYPERLINK OPTIONS */
+
+  a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+  a:link {
+    color: #ffffff;
+  }
+  
+  a:visited {
+    color: #ffffff;
+  }
+  
+  a:focus {
+    border-bottom:solid 1px transparent;
+    background: #0d30a3;
+  }
+  
+  a:hover {
+    text-decoration:underline;
+
+  }
+  
+  a:active {
+    background: #2f87da;
+    color: #ffffff;
+  }
+
+/* HYPERLINKS OPTIONS END */
+
+.box {
+    border: 1px solid rgb(27, 27, 27);
+    background-color: rgb(27, 27, 27);
+    padding: 3px;
+    margin: 35px;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+/* NAVIGATION BAR OPTIONS */
+
 .menu ul {
      list-style-type: none;
      display: flex;
      align-items: center;
      justify-content: space-around;
-     margin-top: 5px;
+     margin-top: 10px;
      margin-bottom: 1px;
-     margin-left: 5px;
-     margin-right: 5px;
+     margin-left: 0px;
+     margin-right: 0px;
 }
+/* NAVIGATION BAR OPTIONS ENDS*/
+
+
+/* INTRODUCTION PAGE OPTIONS*/
 
  .introduction { 
         text-align: justify;
@@ -26,6 +93,8 @@
         margin-left: 175px;
         margin-right: 175px;
  }
+
+ /* INTRODUCTION PAGE OPTIONS END*/
 
  .tldr {
     text-align: center;
@@ -51,5 +120,6 @@
     margin-bottom: 50px;
     margin-left: 270px;
     margin-right: 270px;
-
  }
+
+ 
