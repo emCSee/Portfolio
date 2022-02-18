@@ -11,7 +11,7 @@
     position: relative;
   }
 
-/* MAIN BANNER OPTIONS END */
+/* END */
 
 
 /* BODY PAGE OPTIONS */
@@ -20,55 +20,76 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0px;
     color: rgb(255, 255, 255);
-    background: #3d3c3c;
+    background: #202020;
   }
 
-/* BODY PAGE OPTIONS END */
+/* END */
 
 /* HYPERLINK OPTIONS */
 
-  a {
-    outline: none;
-    text-decoration: none;
-    padding: 2px 1px 0;
+
+a {
+  color: rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
   a:link {
+    text-decoration: none;
+    font-size: .8rem;
+    outline: none;
+    background: none;
     color: #ffffff;
   }
   
   a:visited {
-    color: #ffffff;
+    color: none;
   }
   
   a:focus {
     border-bottom:solid 1px transparent;
-    background: #0d30a3;
+    background: #ffffff;
   }
   
   a:hover {
-    text-decoration:underline;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0 0 10px;
+    background-color: rgb(32, 32, 32);
 
   }
   
   a:active {
-    background: #2f87da;
-    color: #ffffff;
+    background: none;
+    color: white
   }
 
-/* HYPERLINKS OPTIONS END */
+/* END */
+
+/* NAVIGATION BAR BORDER OPTIONS */
 
 .box {
+
     border: 1px solid rgb(27, 27, 27);
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(22, 22, 22);
     padding: 3px;
-    margin: 35px;
+    margin: 15px;
     width: 100%;
     height: 100%;
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
   }
+
+/* END */
+
+/* CURRENT PAGE BORDER OPTIONS */
+
+span {
+  border-bottom: 2px solid rgb(203, 239, 255);
+}
+
+/* END */
+
 
 /* NAVIGATION BAR OPTIONS */
 
@@ -82,36 +103,40 @@
      margin-left: 0px;
      margin-right: 0px;
 }
-/* NAVIGATION BAR OPTIONS ENDS*/
+/* END */
 
 
 /* INTRODUCTION PAGE OPTIONS*/
 
  .introduction { 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: justify;
-        font-size: small;
+        font-size: 13px;
         margin-left: 175px;
         margin-right: 175px;
  }
 
- /* INTRODUCTION PAGE OPTIONS END*/
+ /* END */
 
  .tldr {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    font-size: small;
+    font-size: 13px;
     margin-left: 175px;
     margin-right: 175px;
  }
 
  .firstjob {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
-    font-size: small;
+    font-size: 13px;
     margin-left: 175px;
     margin-right: 175px;
  }
 
 
  .footer ul {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     list-style-type: none;
     display: flex;
     align-items: center;
