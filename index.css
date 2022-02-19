@@ -2,8 +2,8 @@
 
 .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(Images/HnfhOx.jpg);
-    height: 100px;
+    url(Images/81b6c042dbdd61e044522cd1307e9bc5.gif);
+    height: 220px;
     margin-top: 0px;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@ a {
   
   a:link {
     text-decoration: none;
-    font-size: .8rem;
+    font-size: 1rem;
     outline: none;
     background: none;
     color: #ffffff;
@@ -119,8 +119,8 @@ span {
 }
 
 img {
-  height: 120px;
-  width: 120px;
+  height: 90px;
+  width: 90px;
 
 }
 
