@@ -20,13 +20,13 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0px;
     color: rgb(255, 255, 255);
-    background: #202020;
+    background: #272727;
   }
 
 /* END */
 
-/* Hyperlink Options */
 
+/* Hyperlink Options */
 
 a {
   color: rgb(255, 255, 255);
@@ -65,12 +65,13 @@ a {
 
 /* END */
 
+
 /* Navigation Banner Options */
 
 .box {
 
-    border: 1px solid rgb(27, 27, 27);
-    background-color: rgb(22, 22, 22);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(15, 15, 15);
     padding: 3px;
     margin: 15px;
     width: 100%;
@@ -82,6 +83,7 @@ a {
 
 /* END */
 
+
 /* Current Page Options */
 
 span {
@@ -91,7 +93,7 @@ span {
 /* END */
 
 
-/*  */
+/* Navigation Text Options */
 
 .menu ul {
      list-style-type: none;
@@ -103,29 +105,34 @@ span {
      margin-left: 0px;
      margin-right: 0px;
 }
+
 /* END */
 
 
 /* Left Navigation Bar Options */
 
-
 .module ul {
-    list-style-type: none;
-     display: flex;
+     list-style-type: none;
+     display: grid;
      float: left;
-     justify-content: center;
+
 }
 
 img {
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
+
+}
+
+img:hover {
+    transform: scale(1.1);
 }
 
 
 /* END */
 
 
-/* First Paragraph Options */
+/* Intro Paragraph Options */
 
  .introduction { 
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -140,7 +147,6 @@ img {
 
  /* Tldr; Section Options */
 
-
  .tldr, .firstjob, .hi {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
@@ -154,9 +160,9 @@ img {
 
 /* Footer Options */
 
-
  .footer ul {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: none;
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -166,7 +172,6 @@ img {
    width: 100%;
    height: 2.5rem;
  }
-
 
  /* END */
  
