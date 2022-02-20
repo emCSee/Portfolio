@@ -2,7 +2,7 @@
 
 .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(Images/de4pasy-9dc3d7ad-2e4c-4930-9968-4bf756402c1d.gif);
+    url(Images/cityscape.gif);
     height: 180px;
     margin-top: 0px;
     background-position: center;
@@ -31,12 +31,12 @@
 a {
   color: rgb(255, 255, 255);
   font-family: Helvetica;
-  font-weight: bold;
+  font-weight: normal;
   }
   
   a:link {
     text-decoration: none;
-    font-size: .7rem;
+    font-size: .8rem;
     outline: none;
     background: none;
     color: #ffffff;
@@ -121,8 +121,8 @@ span {
 }
 
 img {
-  height: 125px;
-  width: 125px;
+  height: 110px;
+  width: 110px;
   margin-left: none;
 
 }

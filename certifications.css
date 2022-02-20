@@ -1,0 +1,180 @@
+/* Top Banner Options */
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(Images/cityscape.gif);
+    height: 180px;
+    margin-top: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+/* END */
+
+
+/* Body Page Options */
+
+  body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0px;
+    color: #ffffff;
+    background: #202020;
+  }
+
+/* END */
+
+
+/* Hyperlink Options */
+
+a {
+  color: rgb(255, 255, 255);
+  font-family: Helvetica;
+  font-weight: normal;
+  }
+  
+  a:link {
+    text-decoration: none;
+    font-size: .8rem;
+    outline: none;
+    background: none;
+    color: #ffffff;
+  }
+  
+  a:visited {
+    color: none;
+  }
+  
+  a:focus {
+    border-bottom:solid 1px transparent;
+    background: #ffffff;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0 0 10px;
+    background-color: none;
+
+  }
+  
+  a:active {
+    background: none;
+    color: white
+  }
+
+/* END */
+
+
+/* Navigation Banner Options */
+
+.box {
+
+    border: 1px solid #121212;
+    background-color: rgb(15, 15, 15);
+    padding: 3px;
+    margin: 15px;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+/* END */
+
+
+/* Current Page Options */
+
+span {
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+/* END */
+
+
+/* Navigation Text Options */
+
+.menu ul {
+     list-style-type: none;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     margin-top: 10px;
+     margin-bottom: 1px;
+     margin-left: 0px;
+     margin-right: 0px;
+}
+
+/* END */
+
+
+/* Left Navigation Bar Options */
+
+.module ul {
+     list-style-type: none;
+     display: grid;
+     float: left;
+     text-align: center;
+
+}
+
+img {
+  height: 110px;
+  width: 110px;
+  margin-left: none;
+
+}
+
+img:hover {
+    transform: scale(1.04);
+}
+
+
+/* END */
+
+
+/* Intro Paragraph Options */
+
+ .introduction { 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: justify;
+        font-size: 14px;
+        margin-left: 150px;
+        margin-right: 175px;
+ }
+
+ /* END */
+
+
+ /* Tldr; Section Options */
+
+ .tldr, .firstjob, .hi {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    margin-left: 150px;
+    margin-right: 175px;
+ }
+
+ /* END */
+
+
+/* Footer Options */
+
+ .footer ul {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: none;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+   position: absolute;
+   bottom: 0ch;
+   width: 100%;
+   height: 2.5rem;
+ }
+
+ /* END */
+ 
